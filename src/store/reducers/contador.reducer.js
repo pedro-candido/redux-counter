@@ -1,9 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-const slice = createSlice({
+const contador = createSlice({
     name: 'contador',
     initialState: {
-        total: 0,
+        total: 0
     },
     reducers: {
         increment(state) {
@@ -11,9 +11,12 @@ const slice = createSlice({
         },
         decrement(state){
             state.total--;
+        },
+        resetTotalCount(state){
+            state.total = 0;
         }
-    }
+    },
 })
 
-export const { increment, decrement } = slice.actions;
-export default slice.reducer;
+export const { increment, decrement, resetTotalCount } = contador.actions;
+export default contador.reducer;

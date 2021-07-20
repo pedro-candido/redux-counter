@@ -1,6 +1,6 @@
 # Counter
 <p align="center">
-  <img src="https://i.imgur.com/KLSUQNm.gif" alt="Preview CounterApp" width="200"/>
+  <img src="https://i.imgur.com/KLSUQNm.gif" alt="Preview CounterApp" />
 </p>
 
 ### ❔ Para que serve?

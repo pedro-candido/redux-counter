@@ -1,6 +1,6 @@
 # Counter
 <p align="center">
-  <img src="https://i.imgur.com/zpNtbLx.png" alt="Logo ConvertApp" width="200"/>
+  <img src="https://i.imgur.com/KLSUQNm.gif" alt="Preview CounterApp" />
 </p>
 
 ### ❔ Para que serve?
@@ -12,7 +12,7 @@
 ### 📖 Planejamento
   - [x] Estrutura do projeto 
   - [x] Implementar styled-components
-  - [x] Implementar Redux para troca de informações entre páginas
+  - [x] Implementar Redux para troca de informações entre páginas/components
   - [ ] Implementar Storybook
   - [ ] Implementar testes
   - [ ] Implementar Typescript

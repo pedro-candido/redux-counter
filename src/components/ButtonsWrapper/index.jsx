@@ -29,7 +29,7 @@ export const ButtonsWrapper = () =>{
                 Remove count
             </Button>
             <Button onClick={() => handleToggleModal()}>
-                {`${state.modal.isClosed === true ? 'Abrir' : 'Fechar'}`}
+                {`${state.modal.isClosed === true ? 'Open' : 'Close'}`}
             </Button>
         </ButtonContainer>
     )

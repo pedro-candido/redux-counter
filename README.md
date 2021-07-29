@@ -24,4 +24,4 @@
 - Redux
 
 ### ❕ Obs
-- (https://github.com/pedro-candido/react-native-counter)[Versão de React Native]
+- [Versão de React Native](https://github.com/pedro-candido/react-native-counter)

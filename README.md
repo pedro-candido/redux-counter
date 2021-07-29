@@ -24,4 +24,4 @@
 - Redux
 
 ### ❕ Obs
-- Tenho a intenção de refazer este app para react-native assim que acabar em react.
+- (https://github.com/pedro-candido/react-native-counter)[Versão de React Native]

@@ -15,7 +15,7 @@
   - [x] Implementar Redux para troca de informações entre páginas/components
   - [ ] Implementar Storybook
   - [ ] Implementar testes
-  - [ ] Implementar Typescript
+  - [x] Implementar Typescript
 
 ### 💻 Tecnologias utilizadas
 - React

@@ -1,9 +1,5 @@
-import { ButtonStyled } from './style'
+import { ButtonStyled } from "./style";
 
-export const Button = ({children, ...rest}) => {
-    return (
-        <ButtonStyled {...rest}>
-            { children }
-        </ButtonStyled>
-    )
-}
+export const Button = ({ children, ...rest }) => {
+  return <ButtonStyled {...rest}>{children}</ButtonStyled>;
+};

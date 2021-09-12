@@ -9,10 +9,10 @@ import {
   resetTotalCount,
 } from "../../store/reducers/contador.reducer";
 import { toggleModal } from "../../store/reducers/modal.reducer";
-import { RootState } from "../../store/configureStore.store";
+import { selectIsClosed } from "../../store/reducers/Selectors";
 
 export const ButtonsWrapper = () => {
-  const state = useSelector((state): RootState => state);
+  const isClosed = useSelector(selectIsClosed);
   const dispatch = useDispatch();
 
   const handleIncrement = () => dispatch(increment());
@@ -29,7 +29,7 @@ export const ButtonsWrapper = () => {
       <Button onClick={() => handleIncrement()}>Add count</Button>
       <Button onClick={() => handleDecrement()}>Remove count</Button>
       <Button onClick={() => handleToggleModal()}>
-        {`${state.modal.isClosed === true ? "Open" : "Close"}`}
+        {`${isClosed === true ? "Open" : "Close"}`}
       </Button>
     </ButtonContainer>
   );

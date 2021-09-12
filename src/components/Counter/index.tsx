@@ -1,14 +1,14 @@
-import { useSelector } from 'react-redux'
-import { CounterContainer, CounterStyle } from './style'
+import { useSelector } from "react-redux";
+import { selectIsClosed, selectTotal } from "../../store/reducers/Selectors";
+import { CounterContainer, CounterStyle } from "./style";
 
 export const Counter = () => {
-    const { contador, modal } = useSelector(state => state);
+  const isClosed = useSelector(selectIsClosed);
+  const total = useSelector(selectTotal);
 
-    return (
-        <CounterContainer>
-            <CounterStyle isClosed={modal.isClosed}>
-                { contador.total }
-            </CounterStyle>
-        </CounterContainer>
-    )
-}
+  return (
+    <CounterContainer>
+      <CounterStyle isClosed={isClosed}>{total}</CounterStyle>
+    </CounterContainer>
+  );
+};

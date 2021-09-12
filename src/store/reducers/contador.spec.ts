@@ -1,5 +1,4 @@
 import store from "../configureStore.store";
-import { useSelector } from "react-redux";
 import { decrement, increment, resetTotalCount } from "./contador.reducer";
 
 describe("increment a value", () => {

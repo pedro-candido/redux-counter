@@ -1,9 +1,10 @@
-import { configureStore, combineReducers } from '@reduxjs/toolkit';
+import { configureStore, combineReducers } from "@reduxjs/toolkit";
 
-import contador from './reducers/contador.reducer'
-import modal from './reducers/modal.reducer';
+import contador from "./reducers/contador.reducer";
+import modal from "./reducers/modal.reducer";
 
-const reducers = combineReducers({contador, modal})
-const store = configureStore({reducer: reducers})
+const reducer = combineReducers({ contador: contador, modal: modal });
+const store = configureStore({ reducer });
 
 export default store;
+export type RootState = ReturnType<typeof reducer>;

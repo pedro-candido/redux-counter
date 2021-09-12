@@ -1,6 +1,5 @@
-
-import { Container, GlobalStyle } from './App.style'
-import { Counter, ButtonsWrapper } from './components'
+import { Container, GlobalStyle } from "./App.style";
+import { Counter, ButtonsWrapper } from "./components";
 
 function App() {
   return (

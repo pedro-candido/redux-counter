@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { selectIsClosed, selectTotal } from "../../store/reducers/selectors";
+import { selectIsClosed, selectTotal } from "../../store/reducers/selector";
 import { CounterContainer, CounterStyle } from "./style";
 
 export const Counter = () => {

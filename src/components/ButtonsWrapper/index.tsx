@@ -9,8 +9,7 @@ import {
   resetTotalCount,
 } from "../../store/reducers/contador.reducer";
 import { toggleModal } from "../../store/reducers/modal.reducer";
-import { selectIsClosed } from "../../store/reducers/selectors";
-
+import { selectIsClosed } from "../../store/reducers/selector";
 export const ButtonsWrapper = () => {
   const isClosed = useSelector(selectIsClosed);
   const dispatch = useDispatch();

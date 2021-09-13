@@ -14,7 +14,7 @@
   - [x] Implementar styled-components
   - [x] Implementar Redux para troca de informações entre páginas/components
   - [ ] Implementar Storybook
-  - [ ] Implementar testes
+  - [x] Implementar testes
   - [x] Implementar Typescript
 
 ### 💻 Tecnologias utilizadas
